@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wonder Woman</title>
+        <style>
+          body {
+            margin: 0;
+            font-family: Verdana;
+          }
+            .header {
+            background: black;
+            padding: 10px;
+            margin-bottom: 15px;
+            }
+            ul {
+            display: flex;
+            justify-content: space-between;
+            margin-left: -20px;
+            margin-right: 10px;
+            list-style-type: none;
+            }
+            a {
+            text-decoration: none;
+            color: white;
+            padding: 4px 10px;
+            padding: 10px;
+            border-radius: 8px;
+            }
+            a:hover {
+            background: white;
+            color: black;
+            }
+            .film-container, .trailer-container {
+              margin-left: 20px;
+            }
+            .film-img {
+              display: flex;
+            }
+            .film-img img {
+              border-radius: 12px;
+              box-shadow: 8px 8px 8px rgb(172, 172, 172);
+            }
+            .button-one, .button-two {
+              margin-left: -10px;
+              margin-bottom: 20px;
+            }
+            .film-heading {
+              font-size: 20px;
+              margin-bottom: 20px;
+              font-weight: 700;
+            }
+            .synopsis-heading {
+              margin-top: 20px;
+              text-decoration: underline;
+              font-weight: 600;
+            } 
+            .trailer-heading {
+              margin-bottom: 10px;
+            }
+            .trailer-container {
+              margin-bottom: 50px;
+            }
+            .button-one, .button-two {
+              border-radius: 5px;
+              padding: 4px 8px;
+              border: 1px solid rgb(172, 172, 172);
+              box-shadow: 4px 4px 5px rgb(172, 172, 172);
+            }
+            @media only screen and (max-width: 400px) {
+              .film-img {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+              }
+              .button-one, .button-two {
+                margin-left: -10px;
+              }
+              .film-container, .trailer-container {
+                margin-left: 20px;
+                margin-right: 20px;
+              }
+          }
+        </style>
+    </head>
+    <body>
+        <div class = "header">
+            <div class = "links">
+              <ul>
+                <a href = "index.html"><li>HOME</li></a>
+                <a href = "movies.html"><li>FILMOGRAPHY</li></a>
+                <a href = "updates.html"><li>UPDATES</li></a>
+              </ul>
+            </div>
+        </div>
+
+        <div class = "film-container">
+            <div class = "film-heading">WONDER WOMAN (2017)</div>
+            <div class = "film-img">
+                <img src = "WWP.jpg" style="width: 250px; height: 350px; margin-right:15px;"/>
+                <div class = "film-synopsis">
+                    <div class = "synopsis-heading">Synopsis:</div>
+                    <p>Isolated from men and the entire human race, the highly trained pacifist and magnificent Amazon warrior-princess, Diana of the mystical Themyscira, leads a disciplined but peaceful and safe life in the bosom of her fierce tribe of elite fighters. However, Diana's cocooned world will turn upside down, when the intrepid American pilot and the first man ever to set foot on the idyllic island, Steve Trevor, reveals a horrible reality, as a devastating great war threatens to consume humankind. At the height of WWI, the unlikely duo embark on a perilous mission to do battle with an all-powerful adversary, in an all-out war that will end all wars. Can the extraordinary Wonder Woman defeat Ares, the merciless God of War?</p>
+                    <a href = "https://www.netflix.com/ug/title/80157091"><button class = "button-one">Watch Now: Netflix</button></a>
+                    <a href = "https://www.imdb.com/title/tt0451279"><button class = "button-two">IMDB</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class = "trailer-container">
+            <div class = "trailer-heading">Trailers</div>
+            <iframe width="340px" height="auto" src="https://www.youtube.com/embed/1Q8fG0TtVAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </body>
+</html>

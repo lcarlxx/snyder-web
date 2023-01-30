@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Batman V Superman</title>
+        <style>
+          body {
+            margin: 0;
+            font-family: Verdana;
+          }
+            .header {
+            background: black;
+            padding: 10px;
+            margin-bottom: 15px;
+            }
+            ul {
+            display: flex;
+            justify-content: space-between;
+            margin-left: -20px;
+            margin-right: 10px;
+            list-style-type: none;
+            }
+            a {
+            text-decoration: none;
+            color: white;
+            padding: 4px 10px;
+            padding: 10px;
+            border-radius: 8px;
+            }
+            a:hover {
+            background: white;
+            color: black;
+            }
+            .film-container, .trailer-container {
+              margin-left: 20px;
+            }
+            .film-img {
+              display: flex;
+            }
+            .film-img img {
+              border-radius: 12px;
+              box-shadow: 8px 8px 8px rgb(172, 172, 172);
+            }
+            .button-one, .button-two {
+              margin-left: -10px;
+              margin-bottom: 20px;
+            }
+            .film-heading {
+              font-size: 20px;
+              margin-bottom: 20px;
+              font-weight: 700;
+            }
+            .synopsis-heading {
+              margin-top: 20px;
+              text-decoration: underline;
+              font-weight: 600;
+            } 
+            .trailer-heading {
+              margin-bottom: 10px;
+            }
+            .trailer-container {
+              margin-bottom: 50px;
+            }
+            .button-one, .button-two {
+              border-radius: 5px;
+              padding: 4px 8px;
+              border: 1px solid rgb(172, 172, 172);
+              box-shadow: 4px 4px 5px rgb(172, 172, 172);
+            }
+            @media only screen and (max-width: 400px) {
+              .film-img {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+              }
+              .button-one, .button-two {
+                margin-left: -10px;
+              }
+              .film-container, .trailer-container {
+                margin-left: 20px;
+                margin-right: 20px;
+              }
+          }
+        </style>
+    </head>
+    <body>
+        <div class = "header">
+            <div class = "links">
+              <ul>
+                <a href = "index.html"><li>HOME</li></a>
+                <a href = "movies.html"><li>FILMOGRAPHY</li></a>
+                <a href = "updates.html"><li>UPDATES</li></a>
+              </ul>
+            </div>
+        </div>
+
+        <div class = "film-container">
+            <div class = "film-heading">BATMAN V SUPERMAN: DAWN OF JUSTICE (2016)</div>
+            <div class = "film-img">
+                <img src = "BVSP.jpg" style="width: 250px; height: 350px; margin-right:15px;"/>
+                <div class = "film-synopsis">
+                    <div class = "synopsis-heading">Synopsis:</div>
+                    <p>The world changed when mankind, the citizens of Metropolis and billionaire Bruce Wayne were witness to the awesome power of the Superman. Now 2 years later, the love affair is seemingly ended when the Man of Steel becomes involved in the complexities of international politics with lives lost amidst terrorists/rebels. As journalist Lois Lane attempts to clear his name, Senate Hearings and the media compel Superman to work within the system, the Batman escalates his war on crime seeking a means to end the potential threat of Superman and Lex Luthor appears to be pulling strings behind the scenes.</p>
+                    <a href = "https://www.bing.com/ck/a?!&&p=68fcf2e725741cdfJmltdHM9MTY3MDQ1NzYwMCZpZ3VpZD0xZGQ2NDU3NS1iNjEzLTY1MTctMmQ0My01NzVhYjc5NDY0OTYmaW5zaWQ9NTE2OA&ptn=3&hsh=3&fclid=1dd64575-b613-6517-2d43-575ab7946496&psq=batman+v+superman+ultimate+edition+hbo+max&u=a1aHR0cHM6Ly93d3cuaGJvbWF4LmNvbS9mZWF0dXJlL3VybjpoYm86ZmVhdHVyZTpHWHZ1TlR3NlQySWFFVXdFQUFBVC0&ntb=1"><button class = "button-one">Watch Now: Ultimate Edition on HBO Max</button></a>
+                    <a href = "https://www.imdb.com/title/tt2975590"><button class = "button-two">IMDB</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class = "trailer-container">
+            <div class = "trailer-heading">Trailers</div>
+            <iframe width="340px" height="auto" src="https://www.youtube.com/embed/IwfUnkBfdZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="340px" height="auto" src="https://www.youtube.com/embed/0WWzgGyAH6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="340px" height="auto" src="https://www.youtube.com/embed/fis-9Zqu2Ro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="340px" height="auto" src="https://www.youtube.com/embed/NhWg7AQLI_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </body>
+</html>

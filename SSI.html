@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Snow Steam Iron</title>
+        <style>
+          body {
+            margin: 0;
+            font-family: Verdana;
+          }
+            .header {
+            background: black;
+            padding: 10px;
+            margin-bottom: 15px;
+            }
+            ul {
+            display: flex;
+            justify-content: space-between;
+            margin-left: -20px;
+            margin-right: 10px;
+            list-style-type: none;
+            }
+            a {
+            text-decoration: none;
+            color: white;
+            padding: 4px 10px;
+            padding: 10px;
+            border-radius: 8px;
+            }
+            a:hover {
+            background: white;
+            color: black;
+            }
+            .film-container, .trailer-container {
+              margin-left: 20px;
+            }
+            .film-img {
+              display: flex;
+            }
+            .film-img img {
+              border-radius: 12px;
+              box-shadow: 8px 8px 8px rgb(172, 172, 172);
+            }
+            .button-one, .button-two {
+              margin-left: -10px;
+              margin-bottom: 20px;
+            }
+            .film-heading {
+              font-size: 20px;
+              margin-bottom: 20px;
+              font-weight: 700;
+            }
+            .synopsis-heading {
+              margin-top: 20px;
+              text-decoration: underline;
+              font-weight: 600;
+            } 
+            .trailer-heading {
+              margin-bottom: 10px;
+            }
+            .trailer-container {
+              margin-bottom: 50px;
+            }
+            .button-one, .button-two {
+              border-radius: 5px;
+              padding: 4px 8px;
+              border: 1px solid rgb(172, 172, 172);
+              box-shadow: 4px 4px 5px rgb(172, 172, 172);
+            }
+            @media only screen and (max-width: 400px) {
+              .film-img {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+              }
+              .button-one, .button-two {
+                margin-left: -10px;
+              }
+              .film-container, .trailer-container {
+                margin-left: 20px;
+                margin-right: 20px;
+              }
+          }
+        </style>
+    </head>
+    <body>
+        <div class = "header">
+            <div class = "links">
+              <ul>
+                <a href = "index.html"><li>HOME</li></a>
+                <a href = "movies.html"><li>FILMOGRAPHY</li></a>
+                <a href = "updates.html"><li>UPDATES</li></a>
+              </ul>
+            </div>
+        </div>
+
+        <div class = "film-container">
+            <div class = "film-heading">SNOW STEAM IRON (2017)</div>
+            <div class = "film-img">
+                <img src = "SSIP.jpg" style="width: 250px; height: 350px; margin-right:15px;"/>
+                <div class = "film-synopsis">
+                    <div class = "synopsis-heading">Synopsis:</div>
+                    <p>Snow gently falls on the blood-stained streets of a seedy out-of-time New York City. Steam envelopes the nightmare unfolding within its narrow alleys. Iron is the will of the one who would dare to resist - fight - survive.</p>
+                    <a href = "https://www.youtube.com/watch?v=_zMzwPlfq3Q"><button class = "button-one">Watch Now: YouTube (free)</button></a>
+                    <a href = "https://www.imdb.com/title/tt7365860"><button class = "button-two">IMDB</button></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

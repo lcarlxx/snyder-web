@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>300: Rise of an Empire</title>
+        <style>
+          body {
+            margin: 0;
+            font-family: Verdana;
+          }
+            .header {
+            background: black;
+            padding: 10px;
+            margin-bottom: 15px;
+            }
+            ul {
+            display: flex;
+            justify-content: space-between;
+            margin-left: -20px;
+            margin-right: 10px;
+            list-style-type: none;
+            }
+            a {
+            text-decoration: none;
+            color: white;
+            padding: 4px 10px;
+            padding: 10px;
+            border-radius: 8px;
+            }
+            a:hover {
+            background: white;
+            color: black;
+            }
+            .film-container, .trailer-container {
+              margin-left: 20px;
+            }
+            .film-img {
+              display: flex;
+            }
+            .film-img img {
+              border-radius: 12px;
+              box-shadow: 8px 8px 8px rgb(172, 172, 172);
+            }
+            .button-one, .button-two {
+              margin-left: -10px;
+              margin-bottom: 20px;
+            }
+            .film-heading {
+              font-size: 20px;
+              margin-bottom: 20px;
+              font-weight: 700;
+            }
+            .synopsis-heading {
+              margin-top: 20px;
+              text-decoration: underline;
+              font-weight: 600;
+            } 
+            .trailer-heading {
+              margin-bottom: 10px;
+            }
+            .trailer-container {
+              margin-bottom: 50px;
+            }
+            .button-one, .button-two {
+              border-radius: 5px;
+              padding: 4px 8px;
+              border: 1px solid rgb(172, 172, 172);
+              box-shadow: 4px 4px 5px rgb(172, 172, 172);
+            }
+            @media only screen and (max-width: 400px) {
+              .film-img {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+              }
+              .button-one, .button-two {
+                margin-left: -10px;
+              }
+              .film-container, .trailer-container {
+                margin-left: 20px;
+                margin-right: 20px;
+              }
+          }
+        </style>
+    </head>
+    <body>
+        <div class = "header">
+            <div class = "links">
+              <ul>
+                <a href = "index.html"><li>HOME</li></a>
+                <a href = "movies.html"><li>FILMOGRAPHY</li></a>
+                <a href = "updates.html"><li>UPDATES</li></a>
+              </ul>
+            </div>
+        </div>
+
+        <div class = "film-container">
+            <div class = "film-heading">300: RISE OF AN EMPIRE (2014)</div>
+            <div class = "film-img">
+                <img src = "RiseP.jpg" style="width: 250px; height: 350px; margin-right:15px;"/>
+                <div class = "film-synopsis">
+                    <div class = "synopsis-heading">Synopsis:</div>
+                    <p>In the wake of the Persians' victory over King Leonidas and his brave Spartans in 300 (2006), pitiless mortal-turned-god King Xerxes is bent on wiping out Sparta and Athens and conquering Greece. As Artemisia, the ruthless commander of the Persian Navy, assembles a massive fleet of ships and sets sail for conquest, Athenian General Themistocles prepares to defend Greece by sea, striving to entice Queen Gorgo to join the battle and rally more troops to fight for freedom. But with the unstoppable Persian hordes on the verge of victory, the fate of Greece hangs by a thread. In this seemingly unwinnable, once-and-for-all confrontation, can Themistocles lead the charge against the invaders and prevent the rise of an empire?</p>
+                    <a href = "https://www.netflix.com/na/title/70269488"><button class = "button-one">Watch Now: Netflix</button></a>
+                    <a href = "https://www.imdb.com/title/tt1253863/"><button class = "button-two">IMDB</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class = "trailer-container">
+            <div class = "trailer-heading">Trailers</div>
+            <iframe width="340px" height="auto" src="https://www.youtube.com/embed/2zqy21Z29ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </body>
+</html>

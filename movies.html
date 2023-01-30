@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FILMOGRAPHY</title>
+        <style>
+          body {
+            font-family: Verdana;
+            margin: 0;
+          }
+          .header {
+            background: black;
+            padding: 10px;
+            margin-bottom: 15px;
+          }
+          ul {
+            display: flex;
+            justify-content: space-between;
+            margin-left: -20px;
+            margin-right: 10px;
+            list-style-type: none;
+          }
+          a {
+            text-decoration: none;
+            color: white;
+            padding: 4px 10px;
+            padding: 10px;
+            border-radius: 8px;
+          }
+          a:hover {
+            background: white;
+            color: black;
+          }
+          .inactive, .card-text:hover {
+            background: none;
+            color: white;
+          }
+          .active {
+            background: white;
+            color: black;
+          }
+          .information-heading {
+            margin-bottom: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-weight: 700;
+          }
+          .information-text {
+            margin-top: -10px;
+            margin-left: 20px;
+            margin-right: 20px;
+          }
+          .cards {
+            text-align: center;
+          }
+          .film {
+            padding-bottom: 20px;
+          }
+          .film img {
+            width: 500px;
+            height: 290px;
+            border-radius: 10px;
+          }
+          .text {
+            font-style: italic;
+            font-family: corbel;
+            font-size: 16px;
+            text-decoration: overline;
+          }
+          .card-heading, .card-text {
+            color: black;
+          }
+          @media only screen and (max-width: 400px) {
+            .film img {
+              width: 300px;
+              height: 170px;
+            }
+          }
+          .card-container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .card {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 12px;
+            padding: 20px;
+            border: 1px solid rgb(198, 198, 198);
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            background: black;
+          }
+          .card-text {
+            color: white;
+          }
+          .card-heading {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: white;
+          }
+        </style>
+    </head>
+    <body>
+      <div class = "header">
+        <div class = "links">
+          <ul>
+            <a href = "index.html"><li>HOME</li></a>
+            <a class = "active" href = "movies.html"><li>FILMOGRAPHY</li></a>
+            <a href = "updates.html"><li>UPDATES</li></a>
+          </ul>
+        </div>
+      </div>
+
+      <div class = "information">
+        <div class = "information-heading">FILMOGRAPHY</div>
+        <div class = "information-text">
+          <p>Snyder made his feature film debut with the remake of the horror film Dawn of the Dead (2004), and scored a box office hit with the fantasy war film 300 (2006), adapted from writer-artist Frank Miller's Dark Horse Comics miniseries of the same name. His Warner Bros. film Watchmen was released on March 6, 2009, and grossed $185 million worldwide. His follow-up project/animation debut, Legend of the Guardians: The Owls of Ga'Hoole, was released on September 24, 2010. Snyder produced, co-wrote, and directed Sucker Punch, which was released on March 25, 2011.
+            He directed 2013's Man of Steel for Warner Bros., a reboot of the Superman franchise and the jumpstart to the DC Extended Universe (DCEU) and produced the prequel/sequel to 300, 300: Rise of an Empire (2014).
+            During Comic Con 2013, Snyder announced that Batman and Superman would share the screen in Batman v Superman: Dawn of Justice, released in 2016. Snyder directed, Cavill reprised his role as Superman, and Ben Affleck played Batman.
+            On January 29, 2019, Snyder announced that he had signed on to helm Army of the Dead, a zombie heist thriller, for Netflix. Snyder directed and produced the film with his partner and wife, Deborah Snyder, via their newly rebranded production company, The Stone Quarry. His agreement with Netflix has since expanded into several Army of the Dead projects; Army of Thieves, a prequel released in 2021, and Planet of the Dead, a sequel to be created.
+            On May 20, 2020, Snyder announced that Zack Snyder's Justice League would be released on the streaming service HBO Max in 2021.The film was released on March 18, 2021 and was a global success both critically and financially.</p>
+          <p>In July 2021, Snyder was officially announced to be developing the film Rebel Moon for Netflix. It will be inspired by Star Wars and the films of Akira Kurosawa. Filming began in April 2022 and will last until November that year, with the project being developed as a two-part film. Snyder will produce Twilight of the Gods, an anime-style web series inspired by Norse mythology for Netflix. Snyder is also developing a King Arthur film, which he said will be a "faithful retelling". It will be set during the American Gold rush era. Following Rebel Moon, Snyder will return to direct Planet of the Dead, a sequel to Army of the Dead. He also signed a first-look deal with Netflix.</p>
+        </div>
+      </div>
+
+      <div class = "film-container">
+        <div class = "information-heading">STONE QUARRY PROJECTS (2004-2021)</div>
+        <div class = "cards">
+          <div class = "film">
+            <a href = "DOTD.html"><img src = "dotd.jpg"></a>
+            <div class = "text">Dawn Of The Dead (2004)</div>
+          </div>
+          <div class = "film">
+            <a href = "300.html"><img src = "300.jpg"></a>
+            <div class="text">300 (2006)</div>
+          </div>
+          <div class = "film">
+            <a href = "Watchmen.html"><img src = "W.jpg"></a>
+            <div class="text">Watchmen (2009)</div>
+          </div>
+          <div class = "film">
+            <a href = "LOTG.html"><img src = "LOTG.jpg"></a>
+            <div class="text">Legend of The Guardians: Owls of Gahoole (2010)</div>
+          </div>
+          <div class = "film">
+            <a href = "SP.html"><img src = "SP.jpg"></a>
+            <div class="text">Sucker Punch (2011)</div>
+          </div>
+          <div class = "film">
+            <a href = "MOS.html"><img src = "MOS.jpg"></a>
+            <div class="text">Man Of Steel (2013)</div>
+          </div>
+          <div class = "film">
+            <a href = "Rise.html"><img src = "Rise.jpg"></a>
+            <div class="text">300: Rise Of An Empire (2014)</div>
+          </div>
+          <div class = "film">
+            <a href = "BVS.html"><img src = "BVS.jpg"></a>
+            <div class="text">Batman V Superman: Dawn Of Justice (2016)</div>
+          </div>
+          <div class = "film">
+            <a href = "WW.html"><img src = "WW.jpg"></a>
+            <div class="text">Wonder Woman (2017)</div>
+          </div>
+          <div class = "film">
+            <a href = "SSI.html"><img src = "SSI.jpg"></a>
+            <div class="text">Snow Steam Iron (2017)</div>
+          </div>
+          <div class = "film">
+            <a href = "WW84.html"><img src = "WW84.jpg"></a>
+            <div class="text">Wonder Woman 1984 (2020)</div>
+          </div>
+          <div class = "film">
+            <a href = "ZSJL.html"><img src = "ZSJL.jpg"></a>
+            <div class="text">Zack Snyder's Justice League (2021)</div>
+          </div>
+          <div class = "film">
+            <a href = "AOTD.html"><img src = "aotd.jpg"></a>
+            <div class="text">Army Of The Dead (2021)</div>
+          </div>
+          <div class = "film">
+            <a href = "AOT.html"><img src = "AOT.jpg"></a>
+            <div class="text">Army Of Thieves (2021)</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class = "upcoming">
+        <div class = "information-heading">STONE QUARRY UPCOMING (2023-TBD)</div>
+        <div class = "card-container">
+          <a class = "inactive" href = "https://m.imdb.com/title/tt14998742/?ref_=nv_sr_srsg_0">
+            <div class = "card">
+              <div class = "card-heading">REBEL MOON PT1 (2023) & PT2 (2024)</div>
+              <div class = "card-text">
+                <b>Synopsis:</b> A peaceful colony on the edge of the galaxy is threatened by the armies of a tyrannical regent named Balisarius. The desperate civilians dispatch a young woman who has a mysterious past to seek out warriors from nearby planets to help them challenge the regent.
+                <p><b>Development:</b> Rebel Moon is inspired by the works of Akira Kurosawa and the Star Wars films. The film also began development as a Star Wars film that Snyder had pitched to Lucasfilm, in the time period between the conclusion of the prequel trilogy in 2005 and the sale of Lucasfilm to The Walt Disney Company in 2012. This pitch was to be a more mature take on the Star Wars universe. Following the acquisition, the project was redeveloped by producer Eric Newman and Snyder, first as an original television series, before settling on a film. Speaking about the film's future as a franchise, Snyder said: "My hope is that this also becomes a massive IP and a universe that can be built out." In February 9, 2022 it was revealed that Rebel Moon would be a two part film, with both parts being shot back-to-back. In August 22, 2022, the follow-up was confirmed and revealed to be titled Rebel Moon Part 2.</p>
+              </div>
+            </div>
+          </a>
+          <a class = "inactive" href = "https://m.imdb.com/title/tt10625492/?ref_=nv_sr_srsg_0">
+            <div class = "card">
+              <div class = "card-heading">Twilight Of The Gods (TBD)</div>
+              <div class = "card-text">
+                <b>Synopsis:</b> Animated series inspired by Norse Mythology.
+                <p><b>Development:</b> Post production</p>
+              </div>
+            </div>
+          </a>
+          <a class = "inactive" href = "https://m.imdb.com/title/tt13334002/?ref_=nv_sr_srsg_3">
+            <div class = "card">
+              <div class = "card-heading">Army Of The Dead: Lost Vegas S1 (TBD)</div>
+              <div class = "card-text">
+                <b>Synopsis:</b> When Las Vegas falls to the zombie outbreak, Scott Ward and his rescue team will have to confront the source while protecting what they love.
+                <p><b>Development:</b> On September 3, 2020, Netflix announced that the world of Army of the Dead would be expanding with an anime series detailing the events of the initial outbreak. Shay Hatten would be writing with Jay Oliva showrunning. Oliva and Zack Snyder would each direct two episodes, while Zack, Jay, Shay, Deborah Snyder, and Wesley Coller would be executive producing. Dave Bautista, Ana de la Reguera, Tig Notaro, Omari Hardwick, and Ella Purnell would all return to voice their Army of the Dead characters.
+
+                  A month later, Deadline reported several new cast members, including Joe Manganiello, Christian Slater, Harry Lennix, Ross Butler, Anya Chalotra, Vanessa Hudgens, Jena Malone, Yetide Badaki, Monica Barbaro, Christina Wren, and Nolan North.
+                  
+                  On June 4, 2021, Zack Snyder confirmed that it would take two seasons to tell the story of Scott Ward and the Las Vengeance crew in order to fully connect to the events of Army of the Dead. He did not confirm there would be a second season.
+                  On July 21, 2021, The Hollywood Reporter confirmed that the series would be released in the spring of 2022, but this did not come to pass.</p>
+              </div>
+            </div>
+          </a>
+          <a class = "inactive" href = "https://m.imdb.com/title/tt15482742/?ref_=nv_sr_srsg_0">
+            <div class = "card">
+              <div class = "card-heading">Planet Of The Dead (TBD)</div>
+              <div class = "card-text">
+                <b>Synopsis:</b> Sequel to Army of the Dead.
+                <p><b>Development:</b> Pre production</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </body>
+</html>

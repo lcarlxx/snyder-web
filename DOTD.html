@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dawn-of-the-Dead</title>
+        <style>
+          body {
+            margin: 0;
+            font-family: Verdana;
+          }
+            .header {
+            background: black;
+            padding: 10px;
+            margin-bottom: 15px;
+            }
+            ul {
+            display: flex;
+            justify-content: space-between;
+            margin-left: -20px;
+            margin-right: 10px;
+            list-style-type: none;
+            }
+            a {
+            text-decoration: none;
+            color: white;
+            padding: 4px 10px;
+            padding: 10px;
+            border-radius: 8px;
+            }
+            a:hover {
+            background: white;
+            color: black;
+            }
+            .film-container, .trailer-container {
+              margin-left: 20px;
+            }
+            .film-img {
+              display: flex;
+            }
+            .film-img img {
+              border-radius: 12px;
+              box-shadow: 8px 8px 8px rgb(172, 172, 172);
+            }
+            .button-one, .button-two {
+              margin-left: -10px;
+              margin-bottom: 20px;
+            }
+            .film-heading {
+              font-size: 20px;
+              margin-bottom: 20px;
+              font-weight: 700;
+            }
+            .synopsis-heading {
+              margin-top: 20px;
+              text-decoration: underline;
+              font-weight: 600;
+            } 
+            .trailer-heading {
+              margin-bottom: 10px;
+            }
+            .trailer-container {
+              margin-bottom: 50px;
+            }
+            .button-one, .button-two {
+              border-radius: 5px;
+              padding: 4px 8px;
+              border: 1px solid rgb(172, 172, 172);
+              box-shadow: 4px 4px 5px rgb(172, 172, 172);
+            }
+            @media only screen and (max-width: 400px) {
+              .film-img {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+              }
+              .button-one, .button-two {
+                margin-left: -10px;
+              }
+              .film-container, .trailer-container {
+                margin-left: 20px;
+                margin-right: 20px;
+              }
+          }
+        </style>
+    </head>
+    <body>
+        <div class = "header">
+            <div class = "links">
+              <ul>
+                <a href = "index.html"><li>HOME</li></a>
+                <a href = "movies.html"><li>FILMOGRAPHY</li></a>
+                <a href = "updates.html"><li>UPDATES</li></a>
+              </ul>
+            </div>
+        </div>
+
+        <div class = "film-container">
+            <div class = "film-heading">DAWN OF THE DEAD (2004)</div>
+            <div class = "film-img">
+                <img src = "DOTDP.jpg" style="width: 250px; height: 350px; margin-right:15px;"/>
+                <div class = "film-synopsis">
+                    <div class = "synopsis-heading">Synopsis:</div>
+                    <p>Ana, a young beautiful nurse finishes her day-shift at the hospital to return home to her beloved husband, they make love and sleep together. The next day, after her husband is killed by her neighbor next door, he suddenly comes back to life. She discovers the chaos happening in her neighborhood and escapes from her home. Soon after coming to her senses in the woods, she encounters a cop and other survivors, they decide to find safety in a mall. Soon more survivors come and they learn that if they want to stay alive, they should stick together as the world is overrun by an army of undead. Can they survive the horror in this horrific global chaos? When there is no more room in hell, the dead will walk the earth.</p>
+                    <a href = "https://www.primevideo.com/detail/Dawn-of-the-Dead/0PQH5G9LVXVC9MVDP0Y6YS65H4"><button class = "button-one">Watch Now: Prime Video</button></a>
+                    <a href = "https://www.imdb.com/title/tt0363547/?ref_=ttpl_pl_tt"><button class = "button-two">IMDB</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class = "trailer-container">
+            <div class = "trailer-heading">Trailers</div>
+            <iframe width="340px" height="auto" src="https://www.youtube.com/embed/Aq-oVyxJJUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </body>
+</html>
